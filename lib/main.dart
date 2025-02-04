@@ -3,10 +3,10 @@ import 'package:note/pages/splash_screen.dart';
 import 'package:toastification/toastification.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(App());
 }
 
-class MyApp extends StatelessWidget {
+class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ToastificationWrapper(
